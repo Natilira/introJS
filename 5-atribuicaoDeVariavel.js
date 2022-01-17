@@ -15,8 +15,18 @@ console.log(`Meu nome é ${primeiroNome + sobrenome}`); // a virgula não funcio
 
 // sobre escrevendo a variável , não funciona se a variável anterior era uma const (constante)
 // let --> variável comum que pode variar ou mudar
-nome = nome + sobrenome;
-console.log(nome);
+const nomeCompleto = primeiroNome + sobrenome;
+console.log(nomeCompleto);
 
-// Boas Praticas ,reduza ao maximo reatribição de variável use const
+// Boas Praticas ,reduza ao maximo reatribição de variável use const, e nomei a variavel
+//de forma mais clara possivel
 // let é bastante usada em contador
+
+let contador = 0;
+contador = contador + 1;
+
+let idade1; // declarando variável
+idade1 =34; // atribuindo
+idade1 = idade1 + 1;
+console.log(idade1);
+
